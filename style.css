@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact !important;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+    #contact-row i:before {
+        color: white !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+    .progress-bar:before {
+        color: white !important;
+        -webkit-print-color-adjust: exact !important;
+    }
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400 !important;
+}
+
+h5 {
+    font-size: 14px !important;
+}
+
+hr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: 4px #32babc !important;
+    background-color: #32babc !important;
+}
+
+#header-row h1 {
+    font-size: 41px;
+}
+
+#main-container {
+    border: 2px solid #000;
+    margin: 1%;
+    padding: 0;
+}
+
+#header-row {
+    text-align: center;
+}
+
+#header-row h1,
+#header-row h3,
+#header-row h5 {
+    margin-top: 10px;
+}
+
+#header-row h3 {
+    color: #32babc !important;
+}
+
+#contact-row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #32babc !important;
+    color: white !important;
+    text-align: center;
+    width: 100%;
+}
+
+#contact-row i {
+    font-size: 25px;
+    color: white !important;
+}
+
+#contact-row a {
+    color: white !important;
+    cursor: pointer;
+}
+
+#contact-row h5 {
+    color: white !important;
+}
+        
+
+.right-column, .left-column, .project-column {
+    padding: 0 15px;
+}
+
+#skills-row, #language-row, #certificate-row, #experience-row, #tool-row, 
+#education-row, #projects, #projects-1, #mini-projects {
+    padding: 3%;
+}
+
+#skills-row h2, #language-row h2, #certificate-row h2, #experience-row h2,
+#designation, #tool-row h2, #education-row h2, #project-row h2, #project-title span {
+    text-transform: uppercase;
+}
+
+.progress-bar-info {
+    background: #32babc !important;
+    color: white !important;
+}
+
+#skills-row h5 {
+    margin-top: 3%;
+}
+
+#duration em, #location em, #tasks, #certificate-row h5 a, #tool-row span, #education-row em,
+#project-title, #projects h5 u em, #projects h5 a, #projects-1 h5 u em, #projects-1 h5 a, 
+#mini-projects  h5 u em, #mini-projects  h5 a {
+    color: #32babc !important; 
+}
+
+.spacing {
+    padding: 8%;
+}
+
+.body-spacing {
+    padding: 2%;
+}
+
+#experience-row, #education-row, #skills-row, #tool-row, #language-row, #certificate-row, #projects-1, #mini-projects {
+    border-block-end: 1.5px solid black;
+}
